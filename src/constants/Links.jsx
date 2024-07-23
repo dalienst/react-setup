@@ -3,10 +3,15 @@ const appLinks = {
   Dashboard: "/dashboard",
   AboutUs: "/about-us",
   Contact: "/contact",
+
+  Login: "/login",
+
+  Register: "/register",
 };
 
 const apiLinks = {
-  Login: "/api/login/",
+  LOGIN: "/token/",
+  REGISTER: "/register/",
 };
 
 export { appLinks, apiLinks };
